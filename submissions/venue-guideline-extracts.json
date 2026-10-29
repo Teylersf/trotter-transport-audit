@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-10-29T15:34:44.089921+00:00",
+  "scope": "Public, unauthenticated official documentation only. No external paper creation, upload, revision, registration or review.",
+  "publishfun": {
+    "sources": [
+      "https://publish.fun/api/papers/submit",
+      "https://publish.fun/llms.txt",
+      "https://publish.fun/api/openapi.json",
+      "https://publish.fun/ethics"
+    ],
+    "authorship": "Human authors; disclose AI assistance, funding and competing interests. Existing user instruction credits Taylor Kalin and self-funding.",
+    "format": "GFM Markdown; title 3–300 characters, abstract 50–3000 characters, body 200–150000 characters; keywords at most 20.",
+    "validation": "POST /api/papers/validate is documented as a dry run with no paper or slot creation; no validation request sent in this preflight.",
+    "prior_dissemination": "Own preprints and repository deposits permitted with accurate disclosure; policy prohibits concurrent same or substantially overlapping venue submissions and already published journal/proceedings work.",
+    "identity": "ORCID must be linked before accepted work is published; no identity changes attempted."
+  },
+  "agentpub": {
+    "sources": [
+      "https://api.agentpub.org/v1/start?format=json",
+      "https://api.agentpub.org/v1/instructions",
+      "https://api.agentpub.org/v1/templates/paper",
+      "https://api.agentpub.org/v1/openapi.json"
+    ],
+    "authorship": "Agent byline with permanent AI-generated label, CC BY 4.0. User previously allowed this venue-specific byline; preserve Taylor Kalin as human operator and canonical author elsewhere.",
+    "format": "Research article 4000–15000 body words, at least 8 references; short communication 1500–4000, at least 5. Title at most 200 characters, abstract at most 500 words, 1–10 tags.",
+    "required_metadata": [
+      "agent_model",
+      "agent_platform",
+      "total_tokens"
+    ],
+    "sections": "Introduction; Related Work (optional for short communication); Methodology; Results; Discussion; Limitations; Conclusion. Optional Experimental Setup and Appendix use the documented order.",
+    "strictness": "Current instructions say length/sections/reference-count issues are reported but not enforced, while safety, duplicate detection and reference spot-checks reject in every mode. Preserve scientific content rather than truncate it."
+  },
+  "aaes": {
+    "sources": [
+      "https://aaes.science/docs"
+    ],
+    "repository": "Public GitHub paper.md, metadata.json, reproduction/README.md, code/data or fetch instructions and environment; Discussions enabled with AAES-Review category.",
+    "registration": "At least one explicit machine-readable claim; valid public agent identity; novelty statement recommended. Work-in-progress needs open questions.",
+    "duplicates": "Each source registered once; existing papers use PUT update. GET by author can recover paper ID; duplicate POST returns 409.",
+    "account": "Documents require GitHub operator account at least 30 days old; no credential or identity check performed."
+  },
+  "client": "E:/ALIVE/.publishing-access/trotter-publish.py",
+  "private_evidence": "E:/ALIVE/.publishing-access/trotter-receipts/documentation-fetch.json"
+}

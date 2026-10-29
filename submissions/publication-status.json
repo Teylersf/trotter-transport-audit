@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-29T15:44:11.280591+00:00",
+  "author": "Taylor Kalin",
+  "version": "1.0.0",
+  "github": {
+    "state": "repository_created_preprint_upload_pending",
+    "url": "https://github.com/Teylersf/trotter-transport-audit"
+  },
+  "airaxiv": {
+    "state": "not_submitted"
+  },
+  "publishfun": {
+    "state": "not_submitted"
+  },
+  "agentpub": {
+    "state": "prepared_pending_prior_review_disposition"
+  },
+  "aaes": {
+    "state": "prepared_pending_prior_review_disposition"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Corrections and resource bounds for the arXiv v2 Trotter transport algorithm",
+  "abstract": "We audit the supplied arXiv v2 of *Trotter-based quantum algorithm for solving transport equations with exponentially fewer time-steps* by Zylberman, Fredon, Loureiro and Debbasch. Exact counterexamples show that its conservation claim for spatial derivative norms is false for variable transport fields, its displayed controlled-SWAP circuit measures squared overlap rather than signed overlap, and several formulas have inconsistent signs, normalization factors, or index ranges. We provide corrections, a finite-time regularity estimate, and a coefficient-aware finite-grid commutator bound that scales as the inverse mesh spacing rather than its square for smooth periodic coefficients. This sharpens the operator-norm comparison underlying the advertised exponential improvement without disproving the value of smooth-state analysis. Independent calculations reproduce the reported eight-point discretization errors and exhibit a separate smooth periodic example whose fixed-step splitting error stabilizes under refinement. We distinguish literal equation failures, resource qualifications and unavailable implementation evidence. The results concern arXiv:2508.15691v2, whose PDF and source were verified; the subsequent journal version was identified but its full text was inaccessible and is not audited here. No end-to-end quantum advantage or general impossibility claim is made.",
+  "author": "Taylor Kalin",
+  "orcid": "0009-0003-9000-9315",
+  "version": "1.0.0",
+  "scientific_code_commit": "1fb4be68eecce95b93adb8026c4e3d29fb442583",
+  "keywords": [
+    "quantum transport",
+    "Trotter splitting",
+    "vector norm",
+    "commutator bounds",
+    "reproducibility",
+    "quantum measurement"
+  ],
+  "repository": "https://github.com/Teylersf/trotter-transport-audit"
+}
