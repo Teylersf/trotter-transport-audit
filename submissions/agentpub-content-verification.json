@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T17:04:00.871947+00:00",
+  "paper_id": "paper_2026_664597",
+  "agentpub_status": "submitted",
+  "status_qualification": "Submitted is the recorded AgentPub submission status; no acceptance claim is made. The public article is accessible. Publish.fun is a separate venue.",
+  "public_url": "https://agentpub.org/papers/paper_2026_664597",
+  "public_api_url": "https://api.agentpub.org/v1/papers/paper_2026_664597?format=json",
+  "anonymous_get": {
+    "http_status": 200,
+    "fresh_response_sha256": "be94e6ea0bf18afe642e8e99a56708752560336dc7d7e4221cb5044e8e5f6ede",
+    "matches_parent_saved_response_on_all_supplied_content_fields": true
+  },
+  "payload": {
+    "sha256": "eafcf0507de464beb4640ab42180df7a538ac33fc3f9073fcf11cf62c1832a6e",
+    "agent_repository_commit_reported_by_parent": "1d9c30e83eb6be5316c99485132e37fcd870fc77",
+    "canonical_manuscript_version": "1.1.1",
+    "canonical_manuscript_sha256": "e824ae77a51fa4adf47e1fb6d1749b4f7bfccf694c80b81a6fcde7d26a8b97bf",
+    "canonical_typeset_pdf_sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616"
+  },
+  "verification_passed": true,
+  "title_exact": true,
+  "abstract_exact": true,
+  "abstract_utf8_sha256": "0fc7576859759d83f0e279ace5adcbb1e099f532458f7e176207782c9b1b347a",
+  "paper_type_exact": true,
+  "section_order_and_all_supplied_section_fields_exact": true,
+  "section_texts_exact": true,
+  "section_count": 8,
+  "sections": [
+    {
+      "heading": "Introduction",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "0996bb364c02ab32139ce3a0bd3b7b1329d7be442e0ccfd0de3e9352f7e2bca4",
+      "unicode_codepoints": 3073,
+      "utf16_code_units": 3073
+    },
+    {
+      "heading": "Related Work",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "5c3703a784a806e5207fd9918d029fd3703c6387064cf08ee05be4654db33b62",
+      "unicode_codepoints": 3326,
+      "utf16_code_units": 3326
+    },
+    {
+      "heading": "Methodology",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "c801925fe44a16f00c84399d474d8842b684a7427c2ebffb2527f27dbfe0a86c",
+      "unicode_codepoints": 12143,
+      "utf16_code_units": 12143
+    },
+    {
+      "heading": "Results",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "f28d3fc14b773e9a22a2c2a484a55609cc3173598403be2a05f227a14a96afe4",
+      "unicode_codepoints": 16846,
+      "utf16_code_units": 16846
+    },
+    {
+      "heading": "Discussion",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "9214b42969286a88c0b7108bfd93027c5fb5c990ace51ba3b8ace28512138df6",
+      "unicode_codepoints": 8565,
+      "utf16_code_units": 8565
+    },
+    {
+      "heading": "Limitations",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "a9c9f0ca5523de8d6b267f2d1826e26bf9be081fd257226e5d773a1e3cec0960",
+      "unicode_codepoints": 5990,
+      "utf16_code_units": 5990
+    },
+    {
+      "heading": "Conclusion",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "c317716288617c1cd909978c4e2402562710bc35c3006a7b4371000979c252a6",
+      "unicode_codepoints": 1174,
+      "utf16_code_units": 1174
+    },
+    {
+      "heading": "Appendix",
+      "all_supplied_fields_exact": true,
+      "text_utf8_sha256": "4b01e2a3dfedf2e1ab78e9838b3efbeda0e9e4033293fd6cd00c290309ba3347",
+      "unicode_codepoints": 20238,
+      "utf16_code_units": 20238
+    }
+  ],
+  "all_309_math_segments_exact_and_ordered": true,
+  "math_segment_count": 309,
+  "scientific_blocks": {
+    "tables": {
+      "count": 4,
+      "ordered_exact": true
+    },
+    "quotation_blocks": {
+      "count": 12,
+      "ordered_exact": true
+    },
+    "figures": {
+      "count": 3,
+      "ordered_exact": true
+    },
+    "numbered_equations": {
+      "count": 16,
+      "ordered_exact": true
+    }
+  },
+  "reference_count": 11,
+  "all_supplied_reference_fields_exact": true,
+  "complete_reference_objects_identical_before_default_normalization": false,
+  "reference_server_default_fields": [
+    {
+      "ref_id": "1",
+      "server_added_fields": {
+        "doi": null
+      }
+    },
+    {
+      "ref_id": "5",
+      "server_added_fields": {
+        "doi": null
+      }
+    }
+  ],
+  "references_exact_after_removing_only_server_added_null_defaults": true,
+  "all_supplied_metadata_fields_exact": true,
+  "metadata_fields_compared": [
+    "agent_model",
+    "agent_platform",
+    "total_tokens",
+    "submission_note"
+  ],
+  "server_added_metadata_fields": [
+    "generation_params",
+    "input_tokens",
+    "output_tokens",
+    "generation_seconds",
+    "sdk_version",
+    "content_hash",
+    "word_count",
+    "section_count",
+    "reference_count",
+    "internal_citation_count",
+    "external_citation_count",
+    "verification_report"
+  ],
+  "tag_display_normalization": {
+    "payload": [
+      "quantum-algorithms",
+      "numerical-analysis",
+      "transport-equations",
+      "Trotterization",
+      "reproducibility"
+    ],
+    "stored": [
+      "Quantum Algorithms",
+      "Numerical Analysis",
+      "Transport Equations",
+      "Trotterization",
+      "Reproducibility"
+    ],
+    "same_order_and_normalized_names": true
+  },
+  "authorship": {
+    "agent_id": "agent_29b9bf7a",
+    "agent_name": "Lattice Audit Agent",
+    "human_operator_and_canonical_author_credit_preserved": true,
+    "model_type_payload": "OpenAI Codex",
+    "model_type_stored": "OpenAI Codex; exact underlying model identifier not recorded",
+    "model_type_qualification": "Server derives the displayed author model type from the exact preserved metadata.agent_model; affiliation is added as null."
+  },
+  "markdown_figures_stored_in_section_text": true,
+  "structured_figures_field_count": 0,
+  "viewer_observation": {
+    "checked": true,
+    "method": "Read-only Chrome DOM of the public HTML article; no edit, revision, submission, reviewer or evaluation interaction.",
+    "url": "https://agentpub.org/papers/paper_2026_664597",
+    "title_present": true,
+    "agent_credit_present": true,
+    "human_operator_and_canonical_author_credit_present": true,
+    "rendered_katex_elements": 306,
+    "katex_error_elements": 0,
+    "rendered_mathml_elements": 306,
+    "rendered_tables": 4,
+    "table_cells_retaining_literal_tex": 2,
+    "literal_table_math_segments": 3,
+    "article_image_elements": 0,
+    "literal_figure_markdown_strings": 3,
+    "rendered_blockquote_elements": 0,
+    "literal_quote_lines": 12,
+    "both_appendix_headings_present": true,
+    "viewport_width_css_px": 2348,
+    "document_width_css_px": 2333,
+    "limitations": [
+      "All three figure Markdown strings and full captions are stored exactly, but the HTML displays them literally rather than rendering image elements.",
+      "Two table cells retain dollar-delimited TeX (three math segments); other visible math has no explicit KaTeX error elements.",
+      "All twelve quotation blocks are stored exactly; the viewer shows literal quote prefixes rather than blockquote elements.",
+      "Viewer rendering and the server-generated PDF are not certified by exact API content storage. The separately verified canonical typeset PDF is the formatted reference."
+    ],
+    "generic_platform_footer": "No human authored or verified the content.",
+    "footer_qualification": "Platform-provided boilerplate coexists with the explicitly preserved Taylor Kalin canonical-author/human-operator credit; it is not an alteration of the uploaded scientific sections.",
+    "page_load_console_errors_observed": {
+      "count": 3,
+      "message": "TypeError: Cannot read properties of null (reading addEventListener)"
+    }
+  },
+  "actions": "Anonymous public GET and read-only public browser inspection only; no revision, post, review interaction, evaluation trigger, Git or credential access.",
+  "privacy": "Full raw response and parent receipt remain outside the public repository. This record contains only public identifiers, hashes, equality checks and sanitized renderer observations."
+}

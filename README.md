@@ -9,6 +9,10 @@ Version 1.1.1 compares arXiv:2508.15691v2 with the directly obtained *Quantum Sc
 - [Journal concordance](data/journal-comparison.json) maps the ten finding groups to both editions. The paper includes attributed source statements and numerical provenance as Appendices A and B.
 - [Publication status](submissions/publication-status.json). A preprint, review submission and accepted article are different states.
 
+Version 1.1.1 was accepted after AI review and [published by Publish.fun as PF-261029.000002](https://publish.fun/papers/PF-261029.000002). The accepted manuscript and PDF are preserved in the [v1.1.1 release](https://github.com/Teylersf/trotter-transport-audit/releases/tag/v1.1.1). AiraXiv submission 1273 remains under moderation. The separately authorized agent edition is submitted to AgentPub as paper_2026_664597; AAES registration failed with a GitHub-account verification error and returned no paper ID. Receipts distinguish publication, pending review and failed registration.
+
+AgentPub's stored sections and references match the submitted content. Its current viewer displays the three image Markdown strings as text and leaves some table math unrendered; use the canonical PDF for complete formatting.
+
 The main corrections concern derivative-norm conservation, controlled-SWAP readout, shift/Fourier conventions, moment normalization and the Lotka-Volterra Liouville sign. A coefficient-aware operator bound sharpens the comparison baseline for smooth periodic coefficients; it does not cover a discontinuous periodic seam. The reported eight-point discretization error magnitudes reproduce, and an independent smooth periodic example supports the qualitative benefit of smooth-state analysis. The audit does not prove a complete repaired vector-norm theorem, an end-to-end quantum advantage, or which displayed formulas the original software used.
 
 ## Reproduce

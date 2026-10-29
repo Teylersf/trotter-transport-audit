@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T16:27:36.750090+00:00",
+  "verification_mode": "Anonymous HTTPS GET requests without authentication or cookies; no external mutations.",
+  "repository": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit",
+    "full_name": "Teylersf/trotter-transport-audit",
+    "private": false,
+    "visibility": "public",
+    "request": {
+      "url": "https://api.github.com/repos/Teylersf/trotter-transport-audit",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 5850,
+      "sha256": "7f4bb1600ae4bf4e3e63eecb1fed47ea3b80f30d58c1878e84a6776950052e72"
+    }
+  },
+  "release": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit/releases/tag/v1.1.0",
+    "tag_name": "v1.1.0",
+    "draft": false,
+    "prerelease": false,
+    "declared_target": "54de65828161008609cf85b21dc483c026545593",
+    "resolved_tag_commit": "54de65828161008609cf85b21dc483c026545593",
+    "matches_expected_commit": true,
+    "request": {
+      "url": "https://api.github.com/repos/Teylersf/trotter-transport-audit/releases/tags/v1.1.0",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 8047,
+      "sha256": "43bf9f0ad5083418fdd868a931b3c124f8474d4257f2199404fd8013e35bd435"
+    },
+    "tag_resolution_requests": [
+      {
+        "url": "https://api.github.com/repos/Teylersf/trotter-transport-audit/git/ref/tags/v1.1.0",
+        "http_status": 200,
+        "content_type": "application/json",
+        "bytes": 365,
+        "sha256": "b5f7e184012eaf7d5e392c53c290e2b872cd6660e72a14eb9457687ac02c8001"
+      }
+    ]
+  },
+  "release_pdf": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit/releases/download/v1.1.0/main.pdf",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 463659,
+    "sha256": "2877e35bc58638efe541e0df612cc6ee08d47f9d568a23141a7dd529fde9e74a",
+    "matches_expected_sha256": true,
+    "matches_local_pdf": true
+  },
+  "pinned_manuscript": {
+    "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/54de65828161008609cf85b21dc483c026545593/paper/manuscript.md",
+    "http_status": 200,
+    "content_type": "text/plain",
+    "bytes": 75179,
+    "sha256": "2d07d8c001b67c2daa57c2b4fd3463441120daf0c58d990c2868e5fd093119db",
+    "matches_expected_sha256": true,
+    "matches_local_manuscript": true,
+    "byline_contains_taylor_kalin": true
+  },
+  "pinned_figures": [
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/54de65828161008609cf85b21dc483c026545593/figures/transport-checks.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 126892,
+      "sha256": "3997dfd6bfe1076f1828f972b1a7ddf10a1c03a95f4097c5802043eded251316",
+      "local_path": "figures/transport-checks.png",
+      "matches_local_bytes": true,
+      "matches_frozen_numerical_snapshot_bytes": true,
+      "frozen_snapshot": {
+        "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/transport-checks.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 126892,
+        "sha256": "3997dfd6bfe1076f1828f972b1a7ddf10a1c03a95f4097c5802043eded251316"
+      },
+      "decoded": {
+        "width": 2200,
+        "height": 770,
+        "decoded_rgba_sha256": "4468ab19123aadaacedc20d83b28ea96e0c7228acd94804cc050ba7eca8bcb92"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/54de65828161008609cf85b21dc483c026545593/figures/commutator-baselines.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 89282,
+      "sha256": "5797315f07bd788dc711269d870e07ae5a059bbda01477eb95039f2693922d84",
+      "local_path": "figures/commutator-baselines.png",
+      "matches_local_bytes": true,
+      "matches_frozen_numerical_snapshot_bytes": true,
+      "frozen_snapshot": {
+        "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/commutator-baselines.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 89282,
+        "sha256": "5797315f07bd788dc711269d870e07ae5a059bbda01477eb95039f2693922d84"
+      },
+      "decoded": {
+        "width": 1496,
+        "height": 880,
+        "decoded_rgba_sha256": "3ec9540f1930f0acc617d93151cc96b85fc327dd26afdf6a79366a4d710fa259"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/54de65828161008609cf85b21dc483c026545593/figures/measurement-checks.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 85616,
+      "sha256": "cbf26492b4299a79c47d6ee445f71208442b7f19b4c1576c3ac8d2c94893b780",
+      "local_path": "figures/measurement-checks.png",
+      "matches_local_bytes": true,
+      "matches_frozen_numerical_snapshot_bytes": true,
+      "frozen_snapshot": {
+        "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/measurement-checks.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 85616,
+        "sha256": "cbf26492b4299a79c47d6ee445f71208442b7f19b4c1576c3ac8d2c94893b780"
+      },
+      "decoded": {
+        "width": 2200,
+        "height": 770,
+        "decoded_rgba_sha256": "02e9be9178767e48b1db3a0e27404b4673d4dd19514892f49672654baab125bc"
+      }
+    }
+  ],
+  "publishfun_stored_figures": {
+    "paper_id": "p_6cq9vk9Ye4pp1QK2",
+    "status_source": "Previously retrieved paper content_md; only public figure URLs used for this verification.",
+    "figures": [
+      {
+        "url": "https://files.publish.fun/uploads/up_AgpktPcXCXO_5uyR/figures/figure-1.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 139455,
+        "sha256": "e6f86385412c91e1120d7f24f7cfd90cac525f92ff9e696a5034b23eeae360e8",
+        "corresponding_local_path": "figures/transport-checks.png",
+        "matches_local_encoded_bytes": false,
+        "remote_decoded": {
+          "width": 2200,
+          "height": 770,
+          "decoded_rgba_sha256": "4468ab19123aadaacedc20d83b28ea96e0c7228acd94804cc050ba7eca8bcb92"
+        },
+        "local_decoded": {
+          "width": 2200,
+          "height": 770,
+          "decoded_rgba_sha256": "4468ab19123aadaacedc20d83b28ea96e0c7228acd94804cc050ba7eca8bcb92"
+        },
+        "matches_local_dimensions_and_decoded_rgba": true
+      },
+      {
+        "url": "https://files.publish.fun/uploads/up_AgpktPcXCXO_5uyR/figures/figure-2.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 96838,
+        "sha256": "d726a5c0714cd4278f4ca298821e39295754b08d3d86dcb2caf3f28431588ff3",
+        "corresponding_local_path": "figures/commutator-baselines.png",
+        "matches_local_encoded_bytes": false,
+        "remote_decoded": {
+          "width": 1496,
+          "height": 880,
+          "decoded_rgba_sha256": "3ec9540f1930f0acc617d93151cc96b85fc327dd26afdf6a79366a4d710fa259"
+        },
+        "local_decoded": {
+          "width": 1496,
+          "height": 880,
+          "decoded_rgba_sha256": "3ec9540f1930f0acc617d93151cc96b85fc327dd26afdf6a79366a4d710fa259"
+        },
+        "matches_local_dimensions_and_decoded_rgba": true
+      },
+      {
+        "url": "https://files.publish.fun/uploads/up_AgpktPcXCXO_5uyR/figures/figure-3.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "bytes": 95783,
+        "sha256": "13b937167eaccedac9fe6c3eca2d1c3fa2c313b3c426598e8152b9bbbe1ba92e",
+        "corresponding_local_path": "figures/measurement-checks.png",
+        "matches_local_encoded_bytes": false,
+        "remote_decoded": {
+          "width": 2200,
+          "height": 770,
+          "decoded_rgba_sha256": "02e9be9178767e48b1db3a0e27404b4673d4dd19514892f49672654baab125bc"
+        },
+        "local_decoded": {
+          "width": 2200,
+          "height": 770,
+          "decoded_rgba_sha256": "02e9be9178767e48b1db3a0e27404b4673d4dd19514892f49672654baab125bc"
+        },
+        "matches_local_dimensions_and_decoded_rgba": true
+      }
+    ]
+  },
+  "privacy": "Receipt contains an allowlist of public artifact URLs without queries or fragments, public identifiers and checksums; no credentials, IPs or private response fields.",
+  "all_requested_checks_pass": true
+}

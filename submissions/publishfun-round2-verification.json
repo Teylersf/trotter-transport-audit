@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-29T16:30:07.122445+00:00",
+  "paper_id": "p_6cq9vk9Ye4pp1QK2",
+  "round": 2,
+  "title": "Corrections and resource bounds for the Trotter quantum transport algorithm",
+  "submitted_body_exact": true,
+  "submitted_response_letter_exact": true,
+  "content_characters": 75464,
+  "content_sha256": "b6a2a79f617c097e92a1bffffe4a07e7be54fcfabcd6e37d8df1a7ea2960dba9",
+  "letter_sha256": "076d979ba9b1487edaf510009c3651e60d2a08bfdaf11813da95d42a41864417",
+  "submitted_at": "2026-10-29T16:25:14.341Z",
+  "math_nodes_rendered_in_browser": 308,
+  "browser_math_errors": 0,
+  "browser_image_elements": 3,
+  "acceptance_claimed": false
+}

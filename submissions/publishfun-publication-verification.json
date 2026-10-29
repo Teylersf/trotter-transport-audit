@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T17:02:17.998825+00:00",
+  "public_article": {
+    "url": "https://publish.fun/papers/PF-261029.000002",
+    "public_id": "PF-261029.000002",
+    "anonymous_http_status": 200,
+    "content_type": "text/html",
+    "html_bytes": 2086223,
+    "html_sha256": "22dcec3c177c6123d54a9bd31e87e8068e19530889e376b42dbd9c9a3a770001",
+    "anonymous_fetch_saved_at_utc": "2026-10-29T16:58:45.970053+00:00",
+    "request_authentication": "No Authorization header, cookies or login used for the direct public article GET.",
+    "citation_title": "Corrections and resource bounds for the Trotter quantum transport algorithm",
+    "citation_author": "Taylor Kalin",
+    "visible_publication_status": "Published; Accepted",
+    "visible_publication_date": "Oct 29, 2026",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "review_disclosure": "Reviewed and accepted by AI models; no human review asserted.",
+    "review_rounds": 3
+  },
+  "public_body": {
+    "version": "1.1.1",
+    "has_results_sections": true,
+    "has_both_appendices": true,
+    "katex_expression_elements": 309,
+    "mathml_elements": 309,
+    "katex_error_elements": 0,
+    "browser_visual_check": "Normal Chrome rendering inspected for header, representative equations including (1), (14), (15), and figure areas. No missing math or broken images observed. Browser session is supplementary; anonymous access is established by the independent cookie-free HTTP GET.",
+    "figures": [
+      {
+        "url": "https://files.publish.fun/uploads/up_AgpktPcXCXO_5uyR/figures/figure-1.png",
+        "http_status": 200,
+        "alt": "Exact shear derivative growth and the printed-sign translation test. The corrected centered difference converges; the literal sign has a nonzero error limit.",
+        "bytes": 139455,
+        "encoded_sha256": "e6f86385412c91e1120d7f24f7cfd90cac525f92ff9e696a5034b23eeae360e8",
+        "decoded_rgba": {
+          "width": 2200,
+          "height": 770,
+          "sha256": "4468ab19123aadaacedc20d83b28ea96e0c7228acd94804cc050ba7eca8bcb92"
+        },
+        "corresponding_local_path": "figures/transport-checks.png",
+        "matches_local_dimensions_and_decoded_rgba": true
+      },
+      {
+        "url": "https://files.publish.fun/uploads/up_AgpktPcXCXO_5uyR/figures/figure-2.png",
+        "http_status": 200,
+        "alt": "Finite-grid commutator comparisons for a smooth periodic coefficient. State-dependent, coefficient-aware operator and crude operator bounds have different grid behavior.",
+        "bytes": 96838,
+        "encoded_sha256": "d726a5c0714cd4278f4ca298821e39295754b08d3d86dcb2caf3f28431588ff3",
+        "decoded_rgba": {
+          "width": 1496,
+          "height": 880,
+          "sha256": "3ec9540f1930f0acc617d93151cc96b85fc327dd26afdf6a79366a4d710fa259"
+        },
+        "corresponding_local_path": "figures/commutator-baselines.png",
+        "matches_local_dimensions_and_decoded_rgba": true
+      },
+      {
+        "url": "https://files.publish.fun/uploads/up_AgpktPcXCXO_5uyR/figures/figure-3.png",
+        "http_status": 200,
+        "alt": "Independent normalized-overlap and controlled-SWAP checks. Both compare literal printed formulas with finite-dimensional calculations.",
+        "bytes": 95783,
+        "encoded_sha256": "13b937167eaccedac9fe6c3eca2d1c3fa2c313b3c426598e8152b9bbbe1ba92e",
+        "decoded_rgba": {
+          "width": 2200,
+          "height": 770,
+          "sha256": "02e9be9178767e48b1db3a0e27404b4673d4dd19514892f49672654baab125bc"
+        },
+        "corresponding_local_path": "figures/measurement-checks.png",
+        "matches_local_dimensions_and_decoded_rgba": true
+      }
+    ]
+  },
+  "public_editorial_notes": {
+    "count": 4,
+    "match_status_record": true,
+    "required_before_publication": false,
+    "published_platform_explanation": "Notes were recorded on accepting the paper and authors were not required to address them before publication."
+  },
+  "abstract_presentation": {
+    "public_web_abstract_heading_count": 2,
+    "explanation": "The public platform renders its separate abstract before the full manuscript body, which itself contains an Abstract heading.",
+    "frozen_markdown_abstract_heading_count": 1,
+    "frozen_pdf_abstract_heading_count": 1,
+    "frozen_pdf_sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616"
+  },
+  "all_public_publication_checks_pass": true,
+  "privacy": "Allowlist of public article metadata, public figure URLs without queries, hashes and direct observations only; no credentials, private raw response, IPs or cookies.",
+  "actions": "Read-only public verification. Accepted manuscript and submissions were not changed; no git actions."
+}

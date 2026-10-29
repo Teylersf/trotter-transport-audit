@@ -1,0 +1,111 @@
+{
+  "checked_at_utc": "2026-10-29T15:46:50.050929+00:00",
+  "verification_kind": "Independent anonymous HTTP GET verification; no credentials, cookies, bearer tokens or external mutations.",
+  "repository": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit",
+    "full_name": "Teylersf/trotter-transport-audit",
+    "private": false,
+    "visibility": "public"
+  },
+  "release": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit/releases/tag/v1.0.0",
+    "tag_name": "v1.0.0",
+    "draft": false,
+    "prerelease": false,
+    "tag_commit": "e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936",
+    "expected_commit": "e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936",
+    "target_commitish": "e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936"
+  },
+  "numeric_snapshot": {
+    "commit": "1fb4be68eecce95b93adb8026c4e3d29fb442583",
+    "url": "https://github.com/Teylersf/trotter-transport-audit/commit/1fb4be68eecce95b93adb8026c4e3d29fb442583",
+    "relation_to_release": "ahead",
+    "release_ahead_by": 1,
+    "changed_paths_after_numeric_snapshot": [
+      "data/correction-registry.json",
+      "data/reproducibility.json",
+      "paper/closing.md",
+      "paper/latex/body.tex",
+      "paper/latex/main.tex",
+      "paper/main.pdf",
+      "paper/manuscript.md",
+      "submissions/manuscript.md",
+      "submissions/metadata.json",
+      "submissions/publication-status.json",
+      "submissions/venue-guideline-extracts.json"
+    ]
+  },
+  "pdf": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit/releases/download/v1.0.0/main.pdf",
+    "http_status": 200,
+    "final_url_without_query": "https://release-assets.githubusercontent.com/github-production-release-asset/1438625760/88c8be66-1505-485d-b35d-d9e685a376b3",
+    "bytes": 407463,
+    "sha256": "9d774c8332cf9f1ed057e4ec0deb88575a4e850727451c3201eaf27fe51d828d",
+    "content_type": "application/octet-stream",
+    "anonymous": true,
+    "matches_expected_sha256": true,
+    "expected_sha256": "9d774c8332cf9f1ed057e4ec0deb88575a4e850727451c3201eaf27fe51d828d",
+    "matches_local_pdf_bytes": true,
+    "pages": 13,
+    "metadata_title": "Corrections and resource bounds for the arXiv v2 Trotter transport algorithm",
+    "metadata_author": "Taylor Kalin"
+  },
+  "raw_paper": {
+    "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936/paper/manuscript.md",
+    "http_status": 200,
+    "final_url_without_query": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936/paper/manuscript.md",
+    "bytes": 41679,
+    "sha256": "3da81ec4f0af5370e79b6d75702f9153173f5217570f2091ccb2e2b12dec5bae",
+    "content_type": "text/plain; charset=utf-8",
+    "anonymous": true,
+    "matches_local_bytes": true,
+    "author": "Taylor Kalin"
+  },
+  "public_metadata": {
+    "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936/submissions/metadata.json",
+    "http_status": 200,
+    "final_url_without_query": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/e4aece86a1cacb07f2cb3b3ed5b4c743d38f4936/submissions/metadata.json",
+    "bytes": 1893,
+    "sha256": "141cd759cb54ed042803768c646891c38928903b317a06c4056acc20b47a5280",
+    "content_type": "text/plain; charset=utf-8",
+    "anonymous": true,
+    "author": "Taylor Kalin",
+    "orcid": "0009-0003-9000-9315",
+    "scientific_code_commit": "1fb4be68eecce95b93adb8026c4e3d29fb442583"
+  },
+  "raw_figures": [
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/transport-checks.png",
+      "http_status": 200,
+      "final_url_without_query": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/transport-checks.png",
+      "bytes": 126892,
+      "sha256": "3997dfd6bfe1076f1828f972b1a7ddf10a1c03a95f4097c5802043eded251316",
+      "content_type": "image/png",
+      "anonymous": true,
+      "matches_local_bytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/commutator-baselines.png",
+      "http_status": 200,
+      "final_url_without_query": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/commutator-baselines.png",
+      "bytes": 89282,
+      "sha256": "5797315f07bd788dc711269d870e07ae5a059bbda01477eb95039f2693922d84",
+      "content_type": "image/png",
+      "anonymous": true,
+      "matches_local_bytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/measurement-checks.png",
+      "http_status": 200,
+      "final_url_without_query": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/1fb4be68eecce95b93adb8026c4e3d29fb442583/figures/measurement-checks.png",
+      "bytes": 85616,
+      "sha256": "cbf26492b4299a79c47d6ee445f71208442b7f19b4c1576c3ac8d2c94893b780",
+      "content_type": "image/png",
+      "anonymous": true,
+      "matches_local_bytes": true
+    }
+  ],
+  "all_checks_passed": true,
+  "http_request_count": 11,
+  "sensitive_fields_excluded": "Redirect query strings and unrelated user/account metadata are omitted."
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T16:56:50.280295+00:00",
+  "verification_mode": "Anonymous HTTPS GET requests without credentials or cookies; no external mutations.",
+  "repository": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit",
+    "private": false,
+    "visibility": "public",
+    "request": {
+      "url": "https://api.github.com/repos/Teylersf/trotter-transport-audit",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 5852,
+      "sha256": "1b65af8c6c1b64e759f7405745c38da1981430d7266a3150ff9e69189b2e6b30"
+    }
+  },
+  "release": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit/releases/tag/v1.1.1",
+    "tag_name": "v1.1.1",
+    "draft": false,
+    "prerelease": false,
+    "declared_target": "711d082b0d6eac586ab57ed6860ee562d06089ca",
+    "resolved_tag_commit": "711d082b0d6eac586ab57ed6860ee562d06089ca",
+    "matches_expected_commit": true,
+    "request": {
+      "url": "https://api.github.com/repos/Teylersf/trotter-transport-audit/releases/tags/v1.1.1",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 4455,
+      "sha256": "aa7907a3791146bcb676457aedaa09d174c97fa06568e6f98ef2b0a649a822af"
+    },
+    "tag_resolution_requests": [
+      {
+        "url": "https://api.github.com/repos/Teylersf/trotter-transport-audit/git/ref/tags/v1.1.1",
+        "http_status": 200,
+        "content_type": "application/json",
+        "bytes": 365,
+        "sha256": "c119c66b066db24f19f7cdf78ffa2e12b41d3ad71edf1d22124821d43d4db570"
+      }
+    ]
+  },
+  "release_pdf": {
+    "url": "https://github.com/Teylersf/trotter-transport-audit/releases/download/v1.1.1/main.pdf",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 464438,
+    "sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "matches_expected_sha256": true,
+    "matches_expected_bytes": true,
+    "matches_local_pdf": true
+  },
+  "pinned_manuscript": {
+    "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/711d082b0d6eac586ab57ed6860ee562d06089ca/paper/manuscript.md",
+    "http_status": 200,
+    "content_type": "text/plain",
+    "bytes": 76182,
+    "sha256": "e824ae77a51fa4adf47e1fb6d1749b4f7bfccf694c80b81a6fcde7d26a8b97bf",
+    "matches_expected_sha256": true,
+    "matches_local_manuscript": true,
+    "author_byline": "Taylor Kalin",
+    "publisher_pdf_endpoint_absent": true
+  },
+  "public_authoritative_doi_receipt": {
+    "url": "https://raw.githubusercontent.com/Teylersf/trotter-transport-audit/711d082b0d6eac586ab57ed6860ee562d06089ca/submissions/zenodo-doi-verification-round2.json",
+    "http_status": 200,
+    "content_type": "text/plain",
+    "bytes": 3617,
+    "sha256": "cdd7fdc2e80782a9f5abe17a68051c99a3a96d679121bdef127cc0dac88f121f",
+    "matches_local_receipt": true,
+    "doi": "10.5281/zenodo.23770769",
+    "original_checked_at_utc": "2026-10-29T16:47:36.952484+00:00",
+    "authoritative_services": [
+      {
+        "service": "datacite",
+        "request_url": "https://api.datacite.org/dois/10.5281/zenodo.23770769",
+        "http_status": 200
+      },
+      {
+        "service": "doi_agency",
+        "request_url": "https://doi.org/ra/10.5281/zenodo.23770769",
+        "http_status": 200
+      },
+      {
+        "service": "doi_redirect",
+        "request_url": "https://doi.org/10.5281/zenodo.23770769",
+        "http_status": 200
+      },
+      {
+        "service": "zenodo_api",
+        "request_url": "https://zenodo.org/api/records/23770769",
+        "http_status": 200
+      }
+    ],
+    "datacite_observations": {
+      "doi": "10.5281/zenodo.23770769",
+      "state": "findable",
+      "isActive": true,
+      "registered": "2026-10-29T16:11:55.000Z"
+    },
+    "all_authoritative_requests_succeeded": true
+  },
+  "numerical_figures": "Not downloaded again: their unchanged bytes were already independently verified for v1.1.0; this check is limited to the requested v1.1.1 artifacts.",
+  "privacy": "Public URLs are recorded without queries or fragments. No credentials, IPs, response cookies, or private response fields are included.",
+  "all_requested_checks_pass": true
+}
