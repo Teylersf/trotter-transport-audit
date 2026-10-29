@@ -6,3 +6,6 @@ paper/latex/*.out
 paper/latex/*.fls
 paper/latex/*.fdb_latexmk
 paper/latex/*.synctex.gz
+paper/main.log
+paper/revision-journal-theory.md
+submissions/publishfun-review-round1.json

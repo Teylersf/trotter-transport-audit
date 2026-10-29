@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-10-29T16:20:30.858550+00:00",
+  "results": [
+    {
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.23770769",
+      "http_status": 200,
+      "final_url": "https://api.datacite.org/dois/10.5281/zenodo.23770769",
+      "bytes": 8343,
+      "state": "findable",
+      "doi": "10.5281/zenodo.23770769",
+      "titles": [
+        {
+          "title": "Code and numerical data for Corrections and resource bounds for the Trotter quantum transport algorithm"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.23770769",
+      "http_status": 200,
+      "final_url": "https://zenodo.org/records/23770769",
+      "bytes": 75257
+    }
+  ]
+}

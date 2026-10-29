@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "edition": "1.1.0",
+  "checked_at_utc": "2026-10-29T16:23:25.723343+00:00",
+  "pdf": {
+    "path": "paper/main.pdf",
+    "sha256": "2877e35bc58638efe541e0df612cc6ee08d47f9d568a23141a7dd529fde9e74a",
+    "bytes": 463659,
+    "pages": 25,
+    "title": "Corrections and resource bounds for the Trotter quantum transport algorithm",
+    "author": "Taylor Kalin",
+    "output_copy_matches": true
+  },
+  "manuscript": {
+    "sha256": "2d07d8c001b67c2daa57c2b4fd3463441120daf0c58d990c2868e5fd093119db",
+    "words_regex": 11284,
+    "characters": 75149,
+    "attributed_locator_paragraphs": 10,
+    "all_locator_paragraphs_end_with_source_1": true,
+    "appendices_before_references": true,
+    "doi_archive_reference_present": true
+  },
+  "compile": {
+    "success": true,
+    "overfull_boxes": 0,
+    "missing_characters": 0,
+    "underfull_boxes": [
+      {
+        "badness": "1661",
+        "body_tex_lines": "365--375"
+      },
+      {
+        "badness": "1205",
+        "body_tex_lines": "365--375"
+      },
+      {
+        "badness": "1478",
+        "body_tex_lines": "1216--1221"
+      }
+    ],
+    "source_math_legacy_warnings": [
+      "amsmath foreign command \\over",
+      "amsmath foreign command \\atopwithdelims"
+    ],
+    "environment_note": "Fontconfig default configuration warning did not prevent successful rendering.",
+    "desktop_editor_compiler": "success"
+  },
+  "visual_qa": {
+    "all_pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "render_dpi": 65,
+    "result": "pass",
+    "observations": [
+      "No clipped text or equations, missing glyphs, overlapping content or orphan reference URL.",
+      "Concordance longtable spans pages 4-5 with repeated headers.",
+      "Figures and numerical-provenance tables are legible; all Appendix A source equations and source citations are present."
+    ],
+    "layout_repair_rounds": 2
+  },
+  "frozen_artifact_integrity": {
+    "experiments/reproduce.py": {
+      "sha256": "f402e7729a06ed301c3059db149d392b04107dad43c5f0a26247fd7023292244",
+      "matches_frozen": true
+    },
+    "experiments/resource_counterchecks.py": {
+      "sha256": "ae77e28e2cba04a6801f378ebd420b4e9e07be8dd39c4ac4a970020e98fb5f00",
+      "matches_frozen": true
+    },
+    "results/artifact-sha256.json": {
+      "sha256": "5bebc78e5ff162b56a3bdf047b0a46b811da2a02fd54913a30c7d0bf135ad7d9",
+      "matches_frozen": true
+    },
+    "results/commutators.csv": {
+      "sha256": "b293a9c52b98530441299a908953a4d2e11975ccdcd0d60e1ff3f572c02e2b2e",
+      "matches_frozen": true
+    },
+    "results/moments.csv": {
+      "sha256": "9a88dcad0c0628886a5ac93066a6b63acd3071faf27171273b45063d1e0abd4c",
+      "matches_frozen": true
+    },
+    "results/resource-counterchecks.json": {
+      "sha256": "10ab8daf768fe370b7112e869c05e500d11687b34ef1e24e49f4db0374463b0b",
+      "matches_frozen": true
+    },
+    "results/shear.csv": {
+      "sha256": "b6c87011934068c0c62811b069e717dbc20029117526fc85c7e9b2479afb6467",
+      "matches_frozen": true
+    },
+    "results/summary.json": {
+      "sha256": "e8a16b7204fce963302f06142cf637dce429d2c2097c94b871e68b65741a1273",
+      "matches_frozen": true
+    },
+    "results/swap.csv": {
+      "sha256": "fdcee455abbe8cfd4b53a2048a3fa46097c614c26d54f5f64c93c6d4b7227771",
+      "matches_frozen": true
+    },
+    "results/translation.csv": {
+      "sha256": "5d1ea14883d631c1ddeecde21093d301876482e75aba52973f333a390dcd1487",
+      "matches_frozen": true
+    }
+  },
+  "all_frozen_artifacts_unchanged": true,
+  "assembly_integrity_review": {
+    "result": "pass",
+    "reviewer": "Independent automated review",
+    "manuscript_sha256": "2d07d8c001b67c2daa57c2b4fd3463441120daf0c58d990c2868e5fd093119db",
+    "preserved_core_nonheading_paragraphs": 78,
+    "preserved_core_display_equations": 17,
+    "preserved_resource_discussion_paragraphs": 11,
+    "preserved_closing_paragraphs": 22,
+    "preserved_source_quotation_paragraphs": 88,
+    "preserved_numerical_provenance_paragraphs": 13,
+    "allowed_transformations": "Documented heading renumbering, explicit source citations, removal of working prefaces and stale conditional archive sentence.",
+    "actionable_discrepancies": []
+  }
+}
