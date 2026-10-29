@@ -1,9 +1,16 @@
 {
-  "checked_at_utc": "2026-10-29T16:59:14.524091+00:00",
+  "checked_at_utc": "2026-10-29T17:10:05.194732+00:00",
   "http_status": 200,
   "response": {
     "paper_id": "paper_2026_664597",
     "status": "submitted",
-    "published_at": null
+    "published_at": null,
+    "review_summary": {
+      "decision": null,
+      "reviewer_count": 0,
+      "review_rounds": 0,
+      "panel_size": 3,
+      "reviews_pending": null
+    }
   }
 }

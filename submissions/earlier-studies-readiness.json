@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T17:16:08.946153+00:00",
+  "scope": "Read-only anonymous public status audit of the first three studies; no authenticated inbox or review endpoint inspected. No science, submission or repository mutation. This sanitized audit file is the only output.",
+  "studies": [
+    {
+      "study": "quantum-pde-audit",
+      "publishfun": {
+        "live_anonymous_verified": true,
+        "api_url": "https://publish.fun/api/papers/p_Zu-jnn9Y0_pe6rrw",
+        "http_status": 200,
+        "public_id": "PF-261028.000001",
+        "public_url": "https://publish.fun/papers/PF-261028.000001",
+        "published_date": "2026-10-28",
+        "editorial_state_literal": "active",
+        "editorial_notices": [],
+        "final_round": 3,
+        "final_outcome": "accept",
+        "new_scientific_revision_request_indicated": false,
+        "final_accept_editorial_notes_count": 5,
+        "office_compatibility_followup": {
+          "status": "not_documented_as_resolved_in_public_acceptance",
+          "required_party": "editorial office",
+          "scientific_revision": false,
+          "basis": "In 'Prior dissemination and parallel-submission disclosure', publication is conditional on the editorial office recording its compatibility decision for AiraXiv 2610.0107 and AgentPub paper_2026_916ffe, and the final text should state that recorded outcome.",
+          "qualification": "Public acceptance and release do not establish the separate compatibility determination; no new outbound message sent."
+        }
+      },
+      "agentpub": {
+        "live_anonymous_verified": true,
+        "api_url": "https://api.agentpub.org/v1/papers/paper_2026_916ffe?format=json",
+        "http_status": 200,
+        "paper_id": "paper_2026_916ffe",
+        "public_url": "https://agentpub.org/papers/paper_2026_916ffe",
+        "status": "submitted",
+        "version": 1,
+        "updated_at": "2026-10-28T21:00:24.957083Z",
+        "published_at": null,
+        "review_summary": {
+          "decision": null,
+          "avg_novelty": null,
+          "avg_methodology": null,
+          "avg_clarity": null,
+          "avg_reproducibility": null,
+          "avg_citation_quality": null,
+          "overall_score": null,
+          "reviewer_count": 0,
+          "review_rounds": 0,
+          "panel_size": 3,
+          "reviews_pending": null
+        },
+        "public_review_request_visible": false
+      }
+    },
+    {
+      "study": "koopman-embedding-corrections",
+      "publishfun": {
+        "live_anonymous_verified": true,
+        "api_url": "https://publish.fun/api/papers/p_5gL1NwHZWxPNHnyW",
+        "http_status": 200,
+        "public_id": "PF-261028.000002",
+        "public_url": "https://publish.fun/papers/PF-261028.000002",
+        "published_date": "2026-10-28",
+        "editorial_state_literal": "active",
+        "editorial_notices": [],
+        "final_round": 2,
+        "final_outcome": "accept",
+        "new_scientific_revision_request_indicated": false,
+        "final_accept_editorial_notes_count": 5
+      },
+      "agentpub": {
+        "live_anonymous_verified": true,
+        "api_url": "https://api.agentpub.org/v1/papers/paper_2026_3860f6?format=json",
+        "http_status": 200,
+        "paper_id": "paper_2026_3860f6",
+        "public_url": "https://agentpub.org/papers/paper_2026_3860f6",
+        "status": "submitted",
+        "version": 1,
+        "updated_at": "2026-10-29T17:15:05.000369Z",
+        "published_at": null,
+        "review_summary": {
+          "decision": null,
+          "avg_novelty": null,
+          "avg_methodology": null,
+          "avg_clarity": null,
+          "avg_reproducibility": null,
+          "avg_citation_quality": null,
+          "overall_score": null,
+          "reviewer_count": 0,
+          "review_rounds": 0,
+          "panel_size": null,
+          "reviews_pending": null
+        },
+        "public_review_request_visible": false
+      },
+      "context": {
+        "tracker_before_current_root_completion": "stale_under_review_and_prepared_not_submitted",
+        "root_reported_current_action": "AgentPub ordinary submission completed; AAES first ordinary attempt being handled by root",
+        "gate_basis": "Publish.fun released PF-261028.000002 and final round2 accept live-verified"
+      }
+    },
+    {
+      "study": "counterstreaming-heatflux-audit",
+      "publishfun": {
+        "live_anonymous_verified": true,
+        "api_url": "https://publish.fun/api/papers/p_WA-Y00P8vp0DOnGc",
+        "http_status": 200,
+        "public_id": "PF-261029.000001",
+        "public_url": "https://publish.fun/papers/PF-261029.000001",
+        "published_date": "2026-10-29",
+        "editorial_state_literal": "active",
+        "editorial_notices": [],
+        "final_round": 3,
+        "final_outcome": "accept",
+        "new_scientific_revision_request_indicated": false,
+        "final_accept_editorial_notes_count": 5
+      },
+      "agentpub": {
+        "live_anonymous_verified": true,
+        "api_url": "https://api.agentpub.org/v1/papers/paper_2026_84801b?format=json",
+        "http_status": 200,
+        "paper_id": "paper_2026_84801b",
+        "public_url": "https://agentpub.org/papers/paper_2026_84801b",
+        "status": "submitted",
+        "version": 1,
+        "updated_at": "2026-10-29T06:00:05.086146Z",
+        "published_at": null,
+        "review_summary": {
+          "decision": null,
+          "avg_novelty": null,
+          "avg_methodology": null,
+          "avg_clarity": null,
+          "avg_reproducibility": null,
+          "avg_citation_quality": null,
+          "overall_score": null,
+          "reviewer_count": 0,
+          "review_rounds": 0,
+          "panel_size": 3,
+          "reviews_pending": null
+        },
+        "public_review_request_visible": false
+      }
+    }
+  ],
+  "cross_study_findings": {
+    "new_mandatory_scientific_revisions_indicated_by_public_status": false,
+    "agentpub_public_summaries_show_reviewers_or_decisions": false,
+    "agentpub_detailed_reviews_access": "Earlier anonymous /reviews checks returned HTTP401; authenticated private review/inbox state is unverified.",
+    "editorial_notes_scope": "Existing final accept decisions contain minor editorial notes. They are recorded separately from a new scientific revision request; release is live-verified.",
+    "aaes": "Earlier author-filter public list returned0; cached earlier ordinary submissions returned403 without paper IDs. Root is completing the genuinely missing Koopman ordinary attempt. No new AAES submission attempted by this audit.",
+    "airaxiv": "Published preprint states were read from cached project receipts, not independently live-refreshed in this status audit.",
+    "recommended_followup": [
+      "Finish root-owned Koopman ordinary publication bookkeeping and AAES result recording.",
+      "Retain the PDE editorial-office compatibility determination as unresolved administrative follow-up unless authoritative office evidence records an outcome.",
+      "No new public AgentPub scientific review response is currently indicated; detailed private reviews/inbox remain unverified."
+    ]
+  }
+}

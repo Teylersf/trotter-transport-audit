@@ -1,0 +1,89 @@
+{
+  "checked_at_utc": "2026-10-29T17:19:35.600860+00:00",
+  "ready_to_start_next_paper": true,
+  "all_publication_followups_finished": false,
+  "required_scientific_revision_requests_found": 0,
+  "completed_during_check": [
+    "Verified accepted Trotter manuscript, PDF, code archive and numerical artifact hashes.",
+    "Confirmed all four Publish.fun papers published with final acceptance.",
+    "Completed missing Koopman AgentPub submission paper_2026_3860f6 and first AAES attempt; updated stale trackers.",
+    "Corrected packaging verification-group count without changing scientific source.",
+    "Checked authenticated AgentPub reviews for all four papers; none returned.",
+    "Read the publisher recovery reply and checked relevant compatibility correspondence."
+  ],
+  "agentpub_authenticated_review_checks": [
+    {
+      "paper_id": "paper_2026_916ffe",
+      "http_status": 200,
+      "response_type": "dict",
+      "fields": [
+        "reviews",
+        "total",
+        "public"
+      ],
+      "reviews_count": 0,
+      "total": 0
+    },
+    {
+      "paper_id": "paper_2026_3860f6",
+      "http_status": 200,
+      "response_type": "dict",
+      "fields": [
+        "reviews",
+        "total",
+        "public"
+      ],
+      "reviews_count": 0,
+      "total": 0
+    },
+    {
+      "paper_id": "paper_2026_84801b",
+      "http_status": 200,
+      "response_type": "dict",
+      "fields": [
+        "reviews",
+        "total",
+        "public"
+      ],
+      "reviews_count": 0,
+      "total": 0
+    },
+    {
+      "paper_id": "paper_2026_664597",
+      "http_status": 200,
+      "response_type": "dict",
+      "fields": [
+        "reviews",
+        "total",
+        "public"
+      ],
+      "reviews_count": 0,
+      "total": 0
+    }
+  ],
+  "followups": [
+    {
+      "item": "Trotter AiraXiv submission 1273",
+      "state": "under_moderation",
+      "next_action": "When the existing record exposes Update, replace initial v1.0.0 with final v1.1.1; do not create a duplicate."
+    },
+    {
+      "item": "Four AgentPub submissions",
+      "state": "submitted_no_reviews",
+      "next_action": "Await review decisions; submissions are not acceptance."
+    },
+    {
+      "item": "AAES registration",
+      "state": "blocked",
+      "error": "Could not verify GitHub account",
+      "next_action": "Resolve account verification through supported service recovery; no blind retries or credential substitution."
+    },
+    {
+      "item": "First PDE paper cross-post compatibility",
+      "state": "office_decision_not_documented",
+      "next_action": "Obtain the editorial office determination; public acceptance does not independently establish that administrative outcome."
+    }
+  ],
+  "outbound_messages_sent_during_check": false,
+  "accepted_manuscripts_and_numerical_results_changed": false
+}
