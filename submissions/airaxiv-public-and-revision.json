@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T19:24:00.620277+00:00",
+  "public_id": "2610.0115",
+  "public_page": {
+    "url": "https://airaxiv.com/papers/view/2610.0115/",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_host": "airaxiv.com",
+    "final_path": "/papers/view/2610.0115/",
+    "bytes": 108450,
+    "sha256": "4a23cabc655c39e27d47174655971109b3b9248abf58a5998de5dd8589f346b6",
+    "checked_at_utc": "2026-10-29T19:23:15.155694+00:00"
+  },
+  "visible_page_title": "Corrections and resource bounds for the Trotter quantum transport algorithm",
+  "visible_byline": "Taylor Kalin",
+  "displayed_latest_version": "2",
+  "public_AI_review_notice": "Paper has not yet undergone AI review.",
+  "actually_linked_PDF": {
+    "url_without_transient_query": "https://airaxiv.com/papers/pdf/2610.0115/",
+    "public_link_query_keys": [
+      "t",
+      "v"
+    ],
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_host": "airaxiv.com",
+    "final_path": "/papers/pdf/2610.0115/",
+    "bytes": 464438,
+    "sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "checked_at_utc": "2026-10-29T19:24:00.578728+00:00",
+    "requested_version": "2",
+    "actual_PDF_response": true,
+    "pages": 25,
+    "PDF_metadata_author": "Taylor Kalin",
+    "Taylor_Kalin_byline_on_first_PDF_page": true,
+    "byline_extraction_note": "Whitespace-insensitive extraction accounts for PDF kerning that renders as T aylor; metadata independently names Taylor Kalin."
+  },
+  "desired_revision": {
+    "canonical_version": "1.1.1",
+    "expected_bytes": 464438,
+    "expected_sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "public_linked_PDF_matches_desired_revision_exactly": true
+  },
+  "authenticated_UI_revision_observation": {
+    "submission_id": 1278,
+    "venue_version": 2,
+    "status_reported_by_parent_at_submission": "UNDER MODERATION",
+    "evidence_scope": "Trusted contemporaneous UI observation supplied by the parent agent; not rechecked through UI in this anonymous verification."
+  },
+  "interpretation": "The current anonymous public page exposes v2 and its actual linked PDF exactly matches the desired final canonical revision. Public byte availability is verified; this receipt does not infer formal moderation approval or human/AI peer review.",
+  "scope": "Anonymous GETs followed only the actual displayed PDF link. No alternate version paths, UI actions, uploads, submissions or Git mutations. Transient cache-busting query values and signed delivery queries are excluded."
+}

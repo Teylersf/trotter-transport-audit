@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-29T17:10:05.383489+00:00",
+  "checked_at_utc": "2026-10-29T19:25:59.390172+00:00",
   "author": "Taylor Kalin",
   "version": "1.1.1",
   "github": {
@@ -9,17 +9,26 @@
     "release_commit": "711d082b0d6eac586ab57ed6860ee562d06089ca"
   },
   "airaxiv": {
-    "state": "under_moderation",
+    "state": "published",
     "submission_id": 1273,
-    "public_id": null,
+    "public_id": "2610.0115",
     "submission_url": "https://airaxiv.com/papers/submissions/1273/",
     "author": "Taylor Kalin",
     "classification": "AI-generated submission with human author",
-    "anonymous_pdf_verified": false,
-    "submitted_manuscript_version": "1.0.0",
+    "anonymous_pdf_verified": true,
+    "submitted_manuscript_version": "1.1.1",
     "revised_manuscript_version": "1.1.1",
-    "pending_revision_note": "Existing submission is under moderation and exposes View only; no duplicate record or unsupported update was created.",
-    "last_ui_check_utc": "2026-10-29T17:10:05.285868+00:00"
+    "pending_revision_note": null,
+    "last_ui_check_utc": "2026-10-29T19:25:59.390172+00:00",
+    "url": "https://airaxiv.com/papers/view/2610.0115/",
+    "public_version": 2,
+    "public_manuscript_version": "1.1.1",
+    "revision_submission_id": 1278,
+    "revision_submission_url": "https://airaxiv.com/papers/submissions/1278/",
+    "revision_state": "published",
+    "revision_uploaded_pdf_sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "public_pdf_sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "moderation_status_ui": "PUBLISHED"
   },
   "publishfun": {
     "state": "published",
