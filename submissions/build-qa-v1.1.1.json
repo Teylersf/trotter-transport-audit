@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "edition": "1.1.1",
+  "checked_at_utc": "2026-10-29T16:53:02.305727+00:00",
+  "pdf": {
+    "path": "paper/main.pdf",
+    "sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "bytes": 464438,
+    "pages": 25,
+    "title": "Corrections and resource bounds for the Trotter quantum transport algorithm",
+    "author": "Taylor Kalin",
+    "output_copy_matches": true
+  },
+  "manuscript": {
+    "sha256": "e824ae77a51fa4adf47e1fb6d1749b4f7bfccf694c80b81a6fcde7d26a8b97bf",
+    "words_regex": 11446,
+    "characters": 76152,
+    "math_segments": 309,
+    "results_and_resource_discussion_exactly_preserved": true,
+    "appendices_and_references_exactly_preserved": true
+  },
+  "compile": {
+    "success": true,
+    "overfull_boxes": 0,
+    "missing_characters": 0
+  },
+  "frozen_scientific_code_and_numeric_manifest_unchanged": true,
+  "visual_qa": {
+    "state": "passed",
+    "checked_at_utc": "2026-10-29T16:55:28.405253+00:00",
+    "pdf_sha256": "5018bf9e226e34482435e7a6535d720abcb959a0648b5c720f8d6ab535957616",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "method": "All 25 pages of the initial 120-dpi Poppler raster were visually inspected in labelled contact sheets. All 25 pages of the repaired PDF were rendered anew; exact PNG hash comparison found pages 1-14 identical, inheriting those completed visual checks. Repaired pages 15-25 were each freshly inspected in new labelled contact sheets.",
+    "unchanged_page_rasters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "freshly_reinspected_pages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "checks": {
+      "text_and_equation_legibility": true,
+      "figures_and_captions_visible": true,
+      "tables_complete_and_within_margins": true,
+      "source_quotations_and_appendix_displays_visible": true,
+      "no_material_clipping_or_overlap_observed": true,
+      "correct_reproduction_command_spaces_on_page15": true,
+      "normalized_pdf_text_confirms_both_commands": true
+    },
+    "material_defects": [],
+    "resolved_issue": {
+      "page": 15,
+      "description": "The initial PDF rendered backslashes in place of spaces in the two inline Python reproduction commands. The parent repaired the build conversion; both commands now display and extract with the intended spaces."
+    },
+    "nonblocking_layout_observations": [
+      {
+        "page": 11,
+        "description": "A single-word continuation, state., starts the page; the paragraph is complete and readable."
+      },
+      {
+        "pages": [
+          20,
+          21
+        ],
+        "description": "A bold source-equation introduction at the end of page 20 precedes its display on page 21; the equation and associated text are complete."
+      }
+    ],
+    "render_evidence": "Poppler page PNGs, contact sheets and render-record.json retained in the requested local qa-1.1.1 workspace, including rebuilt-5018/; these are local QA evidence, not publication artifacts."
+  }
+}

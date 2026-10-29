@@ -1,0 +1,96 @@
+{
+  "checked_at_utc": "2026-10-29T16:47:36.952484+00:00",
+  "doi": "10.5281/zenodo.23770769",
+  "requests": [
+    {
+      "service": "datacite",
+      "request_url": "https://api.datacite.org/dois/10.5281/zenodo.23770769",
+      "requested_at_utc": "2026-10-29T16:47:29.712465+00:00",
+      "http_status": 200,
+      "final_url": "https://api.datacite.org/dois/10.5281/zenodo.23770769",
+      "content_type": "application/json",
+      "bytes": 8343,
+      "sha256": "9cc24e8f9d0d6b25402f24edb97d179bb1bad003baf71a97b9c8ce3d0cfe55b3",
+      "verified_metadata": {
+        "doi": "10.5281/zenodo.23770769",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.23770769",
+        "state": "findable",
+        "titles": [
+          {
+            "title": "Code and numerical data for Corrections and resource bounds for the Trotter quantum transport algorithm"
+          }
+        ],
+        "creators": [
+          {
+            "name": "Kalin, Taylor",
+            "nameType": "Personal",
+            "givenName": "Taylor",
+            "familyName": "Kalin",
+            "nameIdentifiers": [],
+            "affiliation": []
+          }
+        ],
+        "publisher": "Zenodo",
+        "publicationYear": 2026,
+        "types": {
+          "ris": "COMP",
+          "bibtex": "misc",
+          "citeproc": "article",
+          "schemaOrg": "SoftwareSourceCode",
+          "resourceType": "",
+          "resourceTypeGeneral": "Software"
+        },
+        "registered": "2026-10-29T16:11:55.000Z",
+        "created": "2026-10-29T16:11:55.000Z",
+        "updated": "2026-10-29T16:11:55.000Z",
+        "isActive": true
+      },
+      "datacite_id": "10.5281/zenodo.23770769"
+    },
+    {
+      "service": "doi_agency",
+      "request_url": "https://doi.org/ra/10.5281/zenodo.23770769",
+      "requested_at_utc": "2026-10-29T16:47:31.631467+00:00",
+      "http_status": 200,
+      "final_url": "https://doi.org/ra/10.5281/zenodo.23770769",
+      "content_type": "application/json",
+      "bytes": 70,
+      "sha256": "0650776e7cdb555e3be48f698f55a8744236f9b3e1eea097fe6adf3c12391fd8",
+      "agency_response": [
+        {
+          "DOI": "10.5281/zenodo.23770769",
+          "RA": "DataCite"
+        }
+      ]
+    },
+    {
+      "service": "doi_redirect",
+      "request_url": "https://doi.org/10.5281/zenodo.23770769",
+      "requested_at_utc": "2026-10-29T16:47:32.174463+00:00",
+      "http_status": 200,
+      "final_url": "https://zenodo.org/records/23770769",
+      "content_type": "text/html",
+      "bytes": 75257,
+      "sha256": "855b5202fd3a3d00e9cecb1c8fd533ece62b1fed732d4ca4631cf37159cc4834"
+    },
+    {
+      "service": "zenodo_api",
+      "request_url": "https://zenodo.org/api/records/23770769",
+      "requested_at_utc": "2026-10-29T16:47:36.296484+00:00",
+      "http_status": 200,
+      "final_url": "https://zenodo.org/api/records/23770769",
+      "content_type": "application/json",
+      "bytes": 5141,
+      "sha256": "0c652c12481e2bd4c554c8346485591035b30c51ee69d5fe7e4cd2420042cfb3",
+      "verified_metadata": {
+        "id": 23770769,
+        "doi": "10.5281/zenodo.23770769",
+        "submitted": true,
+        "is_published": null,
+        "state": "done",
+        "title": "Code and numerical data for Corrections and resource bounds for the Trotter quantum transport algorithm"
+      }
+    }
+  ],
+  "retrieval_caution": "A lookup failure from another retrieval system is not a DOI-registration test. Official authoritative records and actual resolver HTTP outcomes are reported separately."
+}
